@@ -1022,10 +1022,6 @@ body {
 /* ---------------------------------- */
 
 
-
-
-
-
 .menu-item a:hover {
     background-color: #85b4d4;
 }
@@ -1051,13 +1047,11 @@ body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     display: block;
     text-align: left;
-    /*width:100%;*/
 }
 
 .sub-menu a:hover {
     background-color: #85b4d4;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    /*width:100%;*/
     color: white;
 }
 
@@ -1085,7 +1079,6 @@ article {
     border: solid;
 }
 
-
 .wp-block-latest-posts__list {
     background-color: whitesmoke;
     padding: 10px;
@@ -1093,6 +1086,7 @@ article {
     border: solid;
     border-radius: 18px;
 }
+
 .wp-block-latest-posts__list a {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight: bold;
