@@ -1077,7 +1077,7 @@ article {
 }
 
 table {
-    border: solid;
+    border: 1px solid #ddd;
     border-radius: 18px;
 }
 
