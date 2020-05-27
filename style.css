@@ -1076,25 +1076,26 @@ article {
     margin: 0;
 }
 
-table {
+td {
+    padding: 10px;
+    background-color: whitesmoke;
     border: 1px solid #ddd;
-    border-radius: 18px;
 }
 
-#contacts {
+table {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 18px;
     border-collapse: collapse;
     width: 100%;
 }
 
-#contacts td, #contacts th {
+table td, table th {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
-#contacts tr:nth-child(even){background-color: #f2f2f2;}
-
-#contacts th {
+table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
@@ -1111,7 +1112,7 @@ footer {
     margin-right: 10vw;
     text-align: center;
     padding: 1vh;
-    background-color: grey;
+    background-color: #454545;
     color: white;
 }
 
