@@ -1051,16 +1051,16 @@ article {
 .entry-content p {
     background-color: whitesmoke;
     padding: 10px;
-    border-radius: 18px;
-    border: solid #e0e0e0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
 }
 
 .wp-block-latest-posts__list {
     background-color: whitesmoke;
     padding: 10px;
     margin: 0;
-    border: solid #e0e0e0;
-    border-radius: 18px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
 }
 
 .wp-block-latest-posts__list a {
