@@ -18,4 +18,17 @@
 * Apperance > Customize > Site Identity > Display Site Title and Tagline > `Uncheck`
 * Apperance > Customize > Widgets > Sidebar > `remove all widgets`
 
+## Adding Content
+* To add content to the site, you simply edit each page using the block formatting 
+* For future updates (such as newletters and announcments) is done through the posts aspect of 
+* Wordpress, these new updates and announcements will be posted to the homepage.
 
+## Plugins
+* Membership Form - the membership form is created and updated using the WPForms plugin, this allows for easy use
+* Audio - All audio is done through the HTML5 Player plugin
+* Photos - Photo galleries uses the LightBox with Photoswipe plugin, mnakes it easier to update and add photos to galleries
+
+## Management
+* WP pusher is a plugin used for requesting updates from the Github repository, making the developtment easier for transition from 
+* local to Staging server
+* Content Backup is done through wordpress and moved manually from Staging to Production
