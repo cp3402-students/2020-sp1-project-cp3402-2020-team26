@@ -1145,3 +1145,7 @@ footer {
         display: none;
     }
 }
+
+.albumtrack {
+    visibility: visible;
+}
