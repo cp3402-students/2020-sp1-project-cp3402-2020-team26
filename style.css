@@ -1146,6 +1146,7 @@ footer {
     }
 }
 
-.albumtrack {
+/* Fix audio player */
+.mejs-inner {
     visibility: visible;
 }
