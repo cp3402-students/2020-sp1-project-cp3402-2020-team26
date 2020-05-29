@@ -33,3 +33,4 @@
 * local to Staging server
 * Content Backup is done using a backup plugin called All-in-one WP migration (https://en-au.wordpress.org/plugins/all-in-one-wp-migration/)
 * To do this you simply create a backup and save it as an archive, then on the production server you import that archive, this brings everything except theme.
+* NOTE * When moving the website to a new server, make sure the new server has a modified .htacess file allowing the max upload to be larger than the default 8MB as the website archive is larger
