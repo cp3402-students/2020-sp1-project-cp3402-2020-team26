@@ -31,4 +31,5 @@
 ## Management
 * [WP pusher](https://wppusher.com/) is a plugin used for requesting updates from the Github repository, making the developtment easier for transition from 
 * local to Staging server
-* Content Backup is done through wordpress and moved manually from Staging to Production
+* Content Backup is done using a backup plugin called All-in-one WP migration (https://en-au.wordpress.org/plugins/all-in-one-wp-migration/)
+* To do this you simply create a backup and save it as an archive, then on the production server you import that archive, this brings everything except theme.
