@@ -963,7 +963,7 @@ object {
 --------------------------------------------------------------*/
 
 body {
-    background-color: darkblue;
+    background-color: #c9b1a3;
     height: 100%;
 }
 
@@ -1129,8 +1129,6 @@ footer {
     footer {
         display: none;
     }
-
-    
 }
 
 @media screen and (max-width: 400px) {
