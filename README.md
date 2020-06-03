@@ -24,13 +24,11 @@
 * Wordpress, these new updates and announcements will be posted to the homepage.
 
 ## Plugins
-* Membership Form - the membership form is created and updated using the [WPForms](https://wpforms.com/) plugin, this allows for easy use
-* Audio - All audio is done through the [HTML5 Player](https://wordpress.org/plugins/html5-audio-player/) plugin
-* Photos - Photo galleries uses the LightBox with [Photoswipe](https://wordpress.org/plugins/lightbox-photoswipe/) plugin, makes it easier to update and add photos to galleries
+* Membership Form - the membership form is created and updated using the WPForms plugin, this allows for easy use
+* Audio - All audio is done through the HTML5 Player plugin
+* Photos - Photo galleries uses the LightBox with Photoswipe plugin, mnakes it easier to update and add photos to galleries
 
 ## Management
-* [WP pusher](https://wppusher.com/) is a plugin used for requesting updates from the Github repository, making the developtment easier for transition from 
+* WP pusher is a plugin used for requesting updates from the Github repository, making the developtment easier for transition from 
 * local to Staging server
-* Content Backup is done using a backup plugin called All-in-one WP migration (https://en-au.wordpress.org/plugins/all-in-one-wp-migration/)
-* To do this you simply create a backup and save it as an archive, then on the production server you import that archive, this brings everything except theme.
-* NOTE * When moving the website to a new server, make sure the new server has a modified .htacess file allowing the max upload to be larger than the default 8MB as the website archive is larger
+* Content Backup is done through wordpress and moved manually from Staging to Production

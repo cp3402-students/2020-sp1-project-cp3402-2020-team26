@@ -1147,8 +1147,3 @@ footer {
         display: none;
     }
 }
-
-/* Fix audio player */
-.mejs-inner {
-    visibility: visible;
-}
